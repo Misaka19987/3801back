@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="./awtwh-s2fbi-001.ico" type="image/x-icon">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <link rel="stylesheet" href="css\style.css">
+        <link rel="stylesheet" href="css\home_content.css">
+        <title>MediQ-Medical Services</title>
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./css/footer.css">
+        <style>
+            .nav-item {
+                width: 33.3%;
+                text-align: center;
+                color: #333;
+            }
+            .nav-link {
+                color: #333;
+            }
+            .tab-content {
+                min-height: 320px;
+                padding: 0 10%;
+            }
+            .tab-content label {
+                width: 50%;
+                margin-top: 30px;
+                float: left;
+            }
+            .tab-content label input[type=radio]{
+                float: left;
+                width: 40px;
+                height: 20px;
+            }
+            .tab-content label input[type=submit]{
+                color: #fff;
+                background-color: #9FC131;
+                border: none;
+                width: 150px;
+                float: right;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="mediq-head">
+            <div class="mediq-head_content">
+                <div class="mediq-head_content-common">
+                    <div class="mediq-head_col-logo">
+                        <a href="./index.html" class="mediq-head_col-logo-link">
+                            <img class="mediq-head_col-logo-img" src="./img/logo.png" alt="MediQ-Medical Services logo">
+                        </a>
+                    </div>
+                    <div class="mediq-head_col-mob-menu mobile-only">
+                        <button class="mediq-head_col-mob-menu-btn">
+                            <i class="fa fa-navicon"></i> Menu
+                        </button>
+                    </div>
+                    <div class="mediq-head_col-tagline">
+                        <h1 class="mediq-head_col-tagline-line">
+                            <ul id="login">
+                                <li>
+                                    <a href="sign-up.html">Sign up</a>
+                                </li>
+                                <li>
+                                    <a>|</a>
+                                </li>
+                                <li>
+                                    <a href="#" id="log">Sign in</a>
+                                </li>
+                            </ul>
+                        </h1>
+                    </div>
+                </div>
+                <div class="mediq-head_menu-row">
+                    <!-- Tablet menu -->
+                    <div class="mediq-head_menu-row-node-mobile-mode device-only">
+                    <!-- Primary search block -->
+                    <form id="search-form-node-mobile-mode" class="mediq-head_menu-row-node-mobile-mode-search">
+                        <div role="combobox">
+                            <input tabindex="0" id="header-search-mobile-mode" class="mediq-head_menu-row-node-mobile-mode-search-field" type="search" autocomplete="off" name="searchterm" placeholder="Search our site" title="Suggestion options">
+                        </div>
+                        <ul id="header-search-suggestions" class="dropdown-menu mediq-head_menu-row-node-mobile-mode-search-list veyron-search-list" role="listbox" position="position">
+                            
+                        </ul>
+                        <button tabindex="0" class="mediq-head_menu-row-node-mobile-mode-search-submit veyron-search-lens-btn" type="button">
+                          <i class="fa fa-search"></i>
+                        </button>
+                    </form>
+                    </div>
+                    <nav class="mediq-head_menu-row-bar">
+                        <!-- Tablet and Desktop menu -->
+                      <ul class="mediq-head_menu-row-bar-nav">
+                        <li class="mediq-head_menu-row-bar-nav-level-1-item">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="mediq-head_menu-row-bar-nav-level-1-item">
+                            <a href="symptom-checker.html">Symptom Checker</a>
+                        </li>
+                        <li class="mediq-head_menu-row-bar-nav-level-1-item">
+                            <a href="medical-service.html">Medical Service</a>
+                        </li>
+                        <li class="mediq-head_menu-row-bar-nav-level-1-item">
+                            <a href="online-booking.html">Online Booking</a>
+                        </li>
+                        <li class="mediq-head_menu-row-bar-nav-level-1-item">
+                            <a href="medical-insurance.html">Medical Insurance</a>
+                        </li>
+                        <li class="mediq-head_menu-row-bar-nav-level-1-item desktop-only">
+                          <!-- Primary search block -->
+                          <form id="search-form-node-desktop-mode" class="mediq-head_menu-row-node-desktop-mode-search">
+                              <div role="combobox">
+                                  <input tabindex="0" id="header-search-desktop-mode" class="mediq-head_menu-row-node-desktop-mode-search-field" type="search" autocomplete="off" name="searchterm" placeholder="Search our site" title="Suggestion options">
+                              </div>
+                              <ul id="header-search-suggestions" class="dropdown-menu mediq-head_menu-row-node-desktop-mode-search-list veyron-search-list" role="listbox" position="position">
+                                  
+                              </ul>
+                              <button tabindex="0" class="mediq-head_menu-row-node-desktop-mode-search-submit veyron-search-lens-btn" type="button">
+                                <i class="fa fa-search"></i>
+                              </button>
+                          </form>
+                        </li>
+                      </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="mediq-head_mobile-screen mobile-only mediq-head-menu_mobile-screen__is-closed"></div>
+            <nav class="mediq-head_mobile-menu mobile-only">
+                <header>Menu <button class="mediq-head_mobile-menu-btn-close">Close <i class="fa fa-navicon"></i></button></header>
+                <ul class="mediq-head_mobile-menu-lvl-1">
+                  <li>
+                      <a href="index.html">Home</a>
+                  </li>
+                  <li>
+                      <a href="symptom-checker.html">Symptom Checker</a>
+                  </li>
+                  <li>
+                      <a href="medical-service.html">Medical Service</a>
+                  </li>
+                  <li>
+                      <a href="online-booking.html">Online Booking</a>
+                  </li>
+                  <li>
+                      <a href="medical-insurance.html">Medical Insurance</a>
+                  </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="login_popup">
+            <div class="popup_content">
+                <a class="close">+</a>
+                <img src="img\background-index.jpg" alt="">
+                <form action="">
+                    <label>E-mail</label>
+                    <input type="" placeholder="Your e-mail address" style="margin: 0 auto;">
+                    <label>Password</label>
+                    <input type="" placeholder="Your password" style="margin: 0 auto;">
+                    <ul id="popup-list">
+                        <li>
+                            <a href="reset-paasword.html">forget password</a>
+                        </li>
+                        <li>
+                            <a>|</a>
+                        </li>
+                        <li>
+                            <a href="sign-up.html">sign up</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <div id="login-button">
+                        <a href="index.html" class="button">Login</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <main class="homepage">
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-toggle="modal" data-bs-target="#mymodal-data" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-toggle="modal"data-bs-target="#mymodal-data" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#mymodal-data" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="modal fade" id="mymodal-data" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">
+                                <span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                <h4 class="modal-title">模态弹出窗标题</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>模态弹出窗主体内容</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                        
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+                        <div class="img" style="background-image: url(./img/background-homepage.png);"></div>
+                        <div class="an"></div>
+                        <div class="container">
+                          <div class="carousel-caption text-start">
+                            <h1>Symptom Checker</h1>
+                            <p>Symptom Analysis and medical care suggestions</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">View details</a></p>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+                        <div class="img" style="background-image: url(./img/background-index.jpg);"></div>
+                        <div class="an"></div>
+                
+                        <div class="container">
+                          <div class="carousel-caption">
+                            <h1>Medical Service</h1>
+                            <p>Symptom Analysis and medical care suggestions</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">View details</a></p>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+                        <div class="img" style="background-image: url(./img/underconstruction.png);"></div>
+                        <div class="an"></div>
+                
+                        <div class="container">
+                          <div class="carousel-caption text-end">
+                            <h1>Online Booking</h1>
+                            <p>Symptom Analysis and medical care suggestions</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">View details</a></p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <div class="container marketing">
+                <div class="row">
+                    <div class="col-lg-4">
+                      <div class="cir"></div>
+                      
+                      <h2>Symptom Checker</h2>
+                      <p>Symptom Analysis and medical care suggestions</p>
+                      <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                      <div class="cir"></div>
+                      
+                      <h2>Symptom Checker</h2>
+                      <p>Symptom Analysis and medical care suggestions</p>
+                      <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                      <div class="cir"></div>
+                      
+                      <h2>Symptom Checker</h2>
+                      <p>Symptom Analysis and medical care suggestions</p>
+                      <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                    </div><!-- /.col-lg-4 -->
+                </div><!-- /.row -->
+
+                <hr class="featurette-divider">
+
+                <div class="row featurette">
+                    <div class="col-md-7">
+                      <h2 class="featurette-heading">Symptom Checker. <span class="text-muted">It’ll blow your mind.</span></h2>
+                      <p class="lead">Symptom Analysis and medical care suggestions.Symptom Analysis and medical care suggestions.</p>
+                    </div>
+                    <div class="col-md-5">
+                      <div class="kir"></div>
+                    </div>
+                  </div>
+              
+                  <hr class="featurette-divider">
+              
+                  <div class="row featurette">
+                    <div class="col-md-7 order-md-2">
+                      <h2 class="featurette-heading">Symptom Checker. <span class="text-muted">It’ll blow your mind.</span></h2>
+                      <p class="lead">Symptom Analysis and medical care suggestions.Symptom Analysis and medical care suggestions.</p>
+                    </div>
+                    <div class="col-md-5 order-md-1">
+                      <div class="kir"></div>
+                    </div>
+                  </div>
+              
+                  <hr class="featurette-divider">
+              
+                  <div class="row featurette">
+                    <div class="col-md-7">
+                      <h2 class="featurette-heading">Symptom Checker. <span class="text-muted">It’ll blow your mind.</span></h2>
+                      <p class="lead">Symptom Analysis and medical care suggestions.Symptom Analysis and medical care suggestions.</p>
+                    </div>
+                    <div class="col-md-5">
+                      <div class="kir"></div>
+                    </div>
+                </div>
+                <hr class="featurette-divider">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active"  data-bs-toggle="tab" href="#home">check your symptom</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#profile">find health service</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#contact">find health service</a>
+                    </li>
+
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="home">
+                       <form action="">
+                        <label for="">
+                            Symptom 1
+                             <input type="radio" name="radio1" id="">
+                        </label>
+                        <label for="">
+                            Symptom 2
+                             <input type="radio" name="radio1" id="">
+                        </label>
+                        <label for="">
+                            Symptom 3
+                             <input type="radio" name="radio1" id="">
+                        </label>
+                        <label for="">
+                            Symptom 4
+                             <input type="radio" name="radio1" id="">
+                        </label>
+                        <label for="">
+                            Symptom 5
+                             <input type="radio" name="radio1" id="">
+                        </label>
+                        <label for="">
+                            Symptom 6
+                             <input type="radio" name="radio1" id="">
+                            <input type="submit" value="Submit">
+                        </label>
+                       </form>
+                    </div>
+                    <div class="tab-pane fade" id="profile">
+                        <form action="">
+                         <label for="">
+                             Symptom 1
+                              <input type="radio" name="radio1" id="">
+                         </label>
+                         <label for="">
+                             Symptom 2
+                              <input type="radio" name="radio1" id="">
+                         </label>
+                         <label for="">
+                             Symptom 3
+                              <input type="radio" name="radio1" id="">
+                         </label>
+                         <label for="">
+                             Symptom 4
+                              <input type="radio" name="radio1" id="">
+                         </label>
+                         <label for="">
+                             Symptom 5
+                              <input type="radio" name="radio1" id="">
+                         </label>
+                         <label for="">
+                             Symptom 6
+                              <input type="radio" name="radio1" id="">
+                             <input type="submit" value="Submit">
+                         </label>
+                        </form>
+                    </div>
+                    <div class="tab-pane fade" id="contact">
+                        <form action="">
+                         <label for="">
+                             Symptom 1
+                              <input type="radio" name="radio1" id="">
+                         </label>
+                         <label for="">
+                             Symptom 2
+                              <input type="radio" name="radio1" id="">
+                         </label>
+                         <label for="">
+                             Symptom 3
+                              <input type="radio" name="radio1" id="">
+                         </label>
+                         <label for="">
+                             Symptom 4
+                              <input type="radio" name="radio1" id="">
+                         </label>
+                         <label for="">
+                             Symptom 5
+                              <input type="radio" name="radio1" id="">
+                         </label>
+                         <label for="">
+                             Symptom 6
+                              <input type="radio" name="radio1" id="">
+                             <input type="submit" value="Submit">
+                         </label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="mediq-foot">
+          <div class="mediq-foot_container">
+            <div class="grid-row">
+              <div class="mq-foot-col">
+                <h2>Our Company</h2>
+                <ul>
+                    <li>
+                        <a href="">About Us</a>
+                    </li>
+                    <li>
+                        <a href="">News Room</a>
+                    </li>
+                    <li>
+                        <a href="">Careers</a>
+                    </li>
+                    <li>
+                        <a href="">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mq-foot-col">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li>
+                        <a href="">Services</a>
+                    </li>
+                    <li>
+                        <a href="">Insurance</a>
+                    </li>
+                    <li>
+                        <a href="">Find a Clinic</a>
+                    </li>
+                    <li>
+                        <a href="">Find a Doctor</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mq-foot-col">
+                <h2>Services</h2>
+                <ul>
+                    <li>
+                        <a href="">Hospital</a>
+                    </li>
+                    <li>
+                        <a href="">Specialist Centers</a>
+                    </li>
+                    <li>
+                        <a href="">Family Medicine</a>
+                    </li>
+                    <li>
+                        <a href="">Dental</a>
+                    </li>
+                    <li>
+                        <a href="">Chinese Medicine</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mq-foot-col">
+                <h2>Contact Us</h2>
+                <ul>
+                    <li>
+                        <a href="">Book an Appointment</a>
+                    </li>
+                    <li>
+                        <a href="">Make an Enquiry</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mq-foot-col">
+                <h2>Address</h2>
+                <ul>
+                    <li>
+                        <a>University of Queensland</a>
+                    </li>
+                    <li>
+                        <a>St Lucia QLD 4072</a>
+                    </li>
+                    <li>
+                        <a>Queensland, Australia</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+            <div class="mediq-foot_container">
+                <div class="grid-row">
+                    <div class="mediq-foot_hon-logo">
+                        <a href="" rel="noopener" target="_blank">
+                            <img class="mediq-foot_hon-logo-img" src="./img/HONConduct817993_s.gif" alt="H.O.N code - Health on the Net Foundation logo">
+                        </a>
+                    </div>
+                    <div class="mediq-foot_hon-description">
+                        <p>MediQ's information and advice are developed and managed within a rigorous <a href="" rel="noopener" target="_blank">clinical governance framework</a>. This website is certified by the Health On The Net (HON) foundation, the standard for trustworthy health information.</p>
+                        <p>&copy; University of Queensland &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a>
+                            <small>This site is protected by reCAPTCHA and the Google
+                                <a href="" target="_blank">Privacy Policy</a> and
+                                <a href="" target="_blank">Terms of Service</a> apply.
+                            </small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+        <script src="./js/index.js"></script>
+    </body>
+</html>

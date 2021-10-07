@@ -1,0 +1,254 @@
+@charset "UTF-8";
+
+::-webkit-input-placeholder {
+	color: inherit;
+	opacity: .54
+}
+
+::-webkit-file-upload-button {
+	-webkit-appearance: button;
+	font: inherit
+}
+
+.mediq-foot_container {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: .9375rem;
+	padding-right: .9375rem
+}
+
+.mediq-foot_container::after {
+	content: "";
+	display: table;
+	clear: both
+}
+
+@media (min-width:760px) {
+	.mediq-foot_container {
+		max-width: 1050px
+	}
+}
+
+@media (min-width:1030px) {
+	.mediq-foot_container {
+		max-width: 1050px
+	}
+}
+
+@media (min-width:1200px) {
+	.mediq-foot_container {
+		max-width: 1050px
+	}
+}
+
+@media (min-width:1800px) {
+	.mediq-foot_container {
+		max-width: 1050px
+	}
+}
+
+.mediq-foot_col-about,
+.mediq-foot_col-discover,
+.mediq-foot_col-language,
+.mediq-foot_col-social-app,
+.mediq-foot_hon-description,
+.mediq-foot_hon-logo {
+	position: relative;
+	min-height: 1px;
+	padding-left: .9375rem;
+	padding-right: .9375rem;
+	float: left
+}
+
+.mediq-foot_hon-logo {
+	width: 25%
+}
+
+.mediq-foot_hon-description {
+	width: 75%
+}
+
+.mediq-foot_col-about,
+.mediq-foot_col-discover,
+.mediq-foot_col-language,
+.mediq-foot_col-social-app {
+	width: 100%
+}
+
+.mediq-foot_col-about,
+.mediq-foot_col-discover,
+.mediq-foot_col-language,
+.mediq-foot_col-social-app,
+.mediq-foot_hon-description,
+.mediq-foot_hon-logo {
+	position: relative;
+	min-height: 1px;
+	padding-left: .9375rem;
+	padding-right: .9375rem
+}
+
+@media (min-width:760px) {
+
+	.mediq-foot_col-about,
+	.mediq-foot_col-discover,
+	.mediq-foot_col-language,
+	.mediq-foot_col-social-app,
+	.mediq-foot_hon-description,
+	.mediq-foot_hon-logo {
+		float: left
+	}
+
+	.mediq-foot_hon-logo {
+		width: 8.33333%
+	}
+
+	.mediq-foot_col-about,
+	.mediq-foot_col-discover,
+	.mediq-foot_col-language,
+	.mediq-foot_col-social-app {
+		width: 50%
+	}
+
+	.mediq-foot_hon-description {
+		width: 91.66667%
+	}
+}
+
+@media (min-width:1030px) {
+
+	.mediq-foot_col-about,
+	.mediq-foot_col-discover,
+	.mediq-foot_col-language,
+	.mediq-foot_col-social-app {
+		float: left
+	}
+
+	.mediq-foot_col-about,
+	.mediq-foot_col-discover,
+	.mediq-foot_col-language,
+	.mediq-foot_col-social-app {
+		width: 25%
+	}
+}
+
+.social-icon_linkedin:before {
+	content: "\e63d"
+}
+
+.social-icon_twitter:before {
+	content: "\e640"
+}
+
+.social-icon_facebook:before {
+	content: "\e641"
+}
+
+*,
+::after,
+::before {
+	box-sizing: inherit
+}
+
+:focus {
+	outline: #009f96 solid 2px;
+	outline-offset: -2px
+}
+
+@-ms-viewport {
+	width: device-width
+}
+
+@viewport {
+	width: device-width
+}
+
+.mediq-foot h2,
+h2 {
+	margin-top: 0;
+	margin-bottom: 10px;
+	color: #1e4759;
+	letter-spacing: -1px;
+	line-height: 1.2
+}
+
+.mediq-foot h2 {
+	font-size: 1.2rem;
+	font-weight: 400
+}
+
+@media print {
+	.mediq-foot h2,
+	h2,
+	p {
+		page-break-inside: avoid
+	}
+
+	.mediq-foot h2 {
+		font-size: 1.2rem
+	}
+}
+
+.mediq-foot {
+	background-color: #9FC131;
+	font-size: .875rem;
+	padding: 20px 0
+}
+
+.mediq-foot .mediq-foot_container h2,
+.mediq-foot a,
+.mediq-foot_container {
+	color: #fff
+}
+
+.mediq-foot_col-about ul,
+.mediq-foot_col-discover ul,
+.mediq-foot_col-language ul {
+	list-style-type: none;
+	padding-left: 0
+}
+
+.mediq-foot_col-about ul li,
+.mediq-foot_col-discover ul li,
+.mediq-foot_col-language ul li {
+	line-height: 2em
+}
+
+.mediq-foot_col-social-app-store-img {
+	width: 100%;
+	max-width: 210px;
+	margin-bottom: 1.25rem
+}
+
+.mediq-foot_col-social-app-follow-icon:hover {
+	color: #bfbfbf !important
+}
+
+@media (min-width:760px) {
+	.mediq-foot {
+		padding: 50px 0
+	}
+}
+
+@media print {
+	.mediq-foot {
+		display: none
+	}
+}
+
+.mediq-foot_col-social-app-follow-icon {
+	border-radius: 50%;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	padding: 5px 0;
+	background-color: #fff;
+	color: #666 !important;
+	height: 38px;
+	width: 38px;
+	font-size: 19px
+}
+
+.mediq-foot_col-social-app-follow-icon:focus,
+.mediq-foot_col-social-app-follow-icon:hover {
+	text-decoration: none
+}

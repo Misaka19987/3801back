@@ -1,0 +1,823 @@
+.device-only,
+.mobile-only {
+	display: block !important
+}
+
+.desktop-only,
+.tablet-up {
+	display: none !important
+}
+
+@media (min-width:760px) {
+
+	.desktop-only,
+	.mobile-only {
+		display: none !important
+	}
+
+	.device-only,
+	.tablet-up {
+		display: block !important
+	}
+}
+
+@media (min-width:1030px) {
+
+	.device-only,
+	.mobile-only {
+		display: none !important
+	}
+
+	.desktop-only,
+	.tablet-up {
+		display: block !important
+	}
+}
+
+.mediq-head_content,
+.mediq-head_content-common-print {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: .9375rem;
+	padding-right: .9375rem
+}
+
+.mediq-head_content-common-print::after,
+.mediq-head_content::after {
+	content: "";
+	display: table;
+	clear: both
+}
+
+@media (min-width:760px) {
+
+	.mediq-head_content,
+	.mediq-head_content-common-print {
+		max-width: 1050px
+	}
+}
+
+@media (min-width:1030px) {
+
+	.mediq-head_content,
+	.mediq-head_content-common-print {
+		max-width: 1050px
+	}
+}
+
+@media (min-width:1200px) {
+
+	.mediq-head_content,
+	.mediq-head_content-common-print {
+		max-width: 1050px
+	}
+}
+
+@media (min-width:1800px) {
+
+	.mediq-head_content,
+	.mediq-head_content-common-print {
+		max-width: 1050px
+	}
+}
+
+.mediq-head_content-common,
+.mediq-head_menu-row {
+	margin-left: -.9375rem;
+	margin-right: -.9375rem
+}
+
+.mediq-head_content-common::after,
+.mediq-head_menu-row::after {
+	content: "";
+	display: table;
+	clear: both
+}
+
+.mediq-head_col-logo,
+.mediq-head_col-mob-menu,
+.mediq-head_col-tagline {
+	position: relative;
+	min-height: 1px;
+	padding-left: .9375rem;
+	padding-right: .9375rem;
+	float: left
+}
+
+.mediq-head_col-mob-menu {
+	width: 33.33333%
+}
+
+.mediq-head_col-logo {
+	width: 66.66667%
+}
+
+.mediq-head_col-tagline {
+	width: 100%
+}
+
+.mediq-head_col-logo,
+.mediq-head_col-tagline {
+	position: relative;
+	min-height: 1px;
+	padding-left: .9375rem;
+	padding-right: .9375rem
+}
+
+@media (min-width:760px) {
+
+	.mediq-head_col-logo,
+	.mediq-head_col-tagline {
+		float: left
+	}
+
+	.mediq-head_col-logo {
+		width: 25%
+	}
+
+	.mediq-head_col-tagline {
+		width: 75%
+	}
+}
+
+.mediq-head_menu-row-node-desktop-mode-search-icon:before,
+.mediq-head_menu-row-node-mobile-mode-search-icon:before {
+	content: "\e606"
+}
+
+.mediq-head_col-mob-menu-btn-icon:before,
+.mediq-head_mobile-menu-btn-close-icon:before {
+	content: "\e60c"
+}
+
+.mediq-head_mobile-menu-icon:before {
+	content: "\e633"
+}
+
+.mediq-head_menu-row-bar-nav-dropdown-icon:before {
+	content: "\e639"
+}
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0
+}
+
+.mediq-head_content-common-print {
+	display: none !important
+}
+
+@media print {
+	.mediq-head_content-common-print {
+		display: block !important
+	}
+}
+
+@media print {
+
+	.mediq-head_col-mob-menu-btn,
+	.mediq-head_menu-row,
+	.mediq-head_mobile-menu,
+	.mediq-head_mobile-screen {
+		display: none !important
+	}
+}
+
+html {
+	box-sizing: border-box
+}
+
+*,
+::after,
+::before {
+	box-sizing: inherit
+}
+
+:focus {
+	outline: #9FC131 solid 2px;
+	outline-offset: -2px
+}
+
+@-ms-viewport {
+	width: device-width
+}
+
+@viewport {
+	width: device-width
+}
+
+html {
+	font-size: 16px;
+	font-weight: 400;
+	-ms-overflow-style: scrollbar;
+	-webkit-tap-highlight-color: transparent
+}
+
+body {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #333;
+	background-color: #fff
+}
+
+h1 {
+	margin-top: 0;
+	margin-bottom: 10px;
+	letter-spacing: -1px;
+	line-height: 1.2
+}
+
+h1 {
+	font-size: 2.0736rem;
+	margin-bottom: 20px;
+	font-weight: 400
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 20px
+}
+
+ul {
+	margin-top: 0;
+	margin-bottom: 20px
+}
+
+ul {
+	padding-left: 0
+}
+
+ul li,
+ul ul {
+	padding-left: 30px
+}
+
+ul ul {
+	margin-bottom: 0
+}
+
+nav:not(.dor-index-table) ul {
+	list-style-type: none;
+	padding: 0
+}
+
+nav:not(.dor-index-table) a {
+	text-decoration: none
+}
+
+a {
+	color: #1e4759;
+	cursor: pointer
+}
+
+a:focus,
+a:hover {
+	color: #577581;
+}
+
+img {
+	vertical-align: middle
+}
+
+a,
+button,
+input {
+	-ms-touch-action: manipulation;
+	touch-action: manipulation
+}
+
+button,
+input {
+	margin: 0;
+	line-height: inherit;
+	border-radius: 0;
+	font-size: 1rem;
+	padding: 8px
+}
+
+input[type=search] {
+	box-sizing: inherit;
+	-webkit-appearance: none
+}
+
+input[type=search] {
+	background-color: #dadada;
+	color: #333;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 5px
+}
+
+input[type=search]:-ms-input-placeholder {
+	color: #666
+}
+
+input[type=search]::-ms-clear {
+	display: none
+}
+
+.mediq-head_menu-row-node-desktop-mode-search,
+.mediq-head_menu-row-node-mobile-mode-search {
+	position: relative;
+	margin-bottom: 20px
+}
+
+.mediq-head_menu-row-node-desktop-mode-search input,
+.mediq-head_menu-row-node-mobile-mode-search input {
+	margin: 0;
+	width: 100%
+}
+
+.mediq-head_menu-row-node-desktop-mode-search,
+.mediq-head_menu-row-node-mobile-mode-search {
+	background-color: #dadada;
+	border-radius: 5px
+}
+
+.mediq-head_menu-row-node-desktop-mode-search-icon,
+.mediq-head_menu-row-node-mobile-mode-search-icon {
+	position: absolute;
+	top: 0;
+	padding: 7px 0;
+	text-align: center;
+	width: 40px;
+	height: 100%
+}
+
+.mediq-head_menu-row-node-desktop-mode-search-icon,
+.mediq-head_menu-row-node-mobile-mode-search-icon {
+	left: 0
+}
+
+.mediq-head_menu-row-node-desktop-mode-search-field,
+.mediq-head_menu-row-node-mobile-mode-search-field {
+	display: table-cell;
+	background-color: transparent;
+	width: 100%
+}
+
+.mediq-head_menu-row-node-desktop-mode-search-list,
+.mediq-head_menu-row-node-mobile-mode-search-list {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: #fff;
+	border: 1px solid #dadada;
+	z-index: 1000;
+	max-height: 220px;
+	width: 100%;
+	overflow-y: auto;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, .12), 0 1px 4px rgba(0, 0, 0, .24)
+}
+
+.mediq-head_menu-row-node-desktop-mode-search-list,
+.mediq-head_menu-row-node-mobile-mode-search-list {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	width: 100%
+}
+
+@media print {
+	input[type=search] {
+		border: 1px solid #dadada !important;
+		margin-bottom: 10px
+	}
+}
+
+.mediq-head {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	background: #fff;
+	transition: box-shadow .5s;
+	z-index: 1000
+}
+
+.mediq-head_content-common-print {
+	clear: both
+}
+
+.mediq-head_col-logo {
+	margin-bottom: 10px;
+	padding-right: 0;
+	padding-top: 10px
+}
+
+.mediq-head_col-logo-img {
+	max-height: 30px;
+	min-height: 30px;
+	max-width: 120px;
+	transition: all .5s
+}
+
+.mediq-head_col-mob-menu {
+	text-align: right;
+	padding-top: 5px
+}
+
+.mediq-head_col-mob-menu-btn {
+	background: 0 0;
+	border: none;
+	padding: 7px 0;
+	width: 85px;
+	text-align: center;
+	font-size: 1.125rem
+}
+
+.mediq-head_col-mob-menu-btn-icon {
+	position: relative;
+	top: 1px
+}
+
+.mediq-head_col-tagline {
+	margin-bottom: 10px;
+	max-height: 60px;
+	transition: max-height .5s, opacity .5s, margin .5s
+}
+
+.mediq-head_col-tagline-line {
+	font-size: .9rem;
+	text-align: center;
+	margin: 0
+}
+
+.mediq-head_menu-row-node-desktop-mode-search {
+	margin: 0;
+	width: 100%
+}
+
+.mediq-head_menu-row-node-desktop-mode-search-icon {
+	padding: 8px 0
+}
+
+.mediq-head_menu-row-node-desktop-mode-search-field {
+	padding: 8px 10px;
+	min-height: 42px;
+	width: 100%
+}
+
+.mediq-head_menu-row-node-desktop-mode-search-list {
+	width: 100%;
+	font-size: 1em
+}
+
+.mediq-head_menu-row-node-mobile-mode-search {
+	margin: 0;
+	width: 100%
+}
+
+.mediq-head_menu-row-node-mobile-mode-search-icon {
+	padding: 8px 0
+}
+
+.mediq-head_menu-row-node-mobile-mode-search-field {
+	padding: 8px 10px;
+	min-height: 42px;
+	width: 100%;
+	border: none !important;
+	border-radius: 0 !important
+}
+
+.mediq-head_menu-row-node-mobile-mode-search-list {
+	width: 100%;
+	font-size: 1em
+}
+
+.mediq-head_menu-row-bar {
+	display: none;
+	width: 100%;
+	border-spacing: 0
+}
+
+.mediq-head_menu-row-bar-nav {
+	display: table-row
+}
+
+.mediq-head_menu-row-bar-nav-level-1-item {
+	display: table-cell;
+	vertical-align: top;
+	position: relative;
+	padding: 0;
+	width: 20%;
+	border-left: 1px solid #bfbfbf
+}
+
+.mediq-head_menu-row-bar-nav-level-1-item:first-child {
+	border: none
+}
+
+.mediq-head_menu-row-bar-nav-level-1-item>a,
+.mediq-head_menu-row-bar-nav-level-1-item>button {
+	display: block;
+	height: 42px;
+	overflow: hidden;
+	padding: 8px 10px;
+	text-align: center;
+	text-decoration: none;
+	white-space: nowrap;
+	background-color: #fff;
+	color: #1e4759
+}
+
+.mediq-head_menu-row-bar-nav-level-1-item>a:hover,
+.mediq-head_menu-row-bar-nav-level-1-item>button:hover {
+	background-color: #f5b672;
+	color: #fff
+}
+
+.mediq-head_menu-row-bar-nav-level-1-item>button {
+	width: 100%;
+	border: none
+}
+
+.mediq-head_menu-row-bar-nav-dropdown-icon {
+	margin-left: 5px
+}
+
+.mediq-head_menu-row-bar-nav-level-2 {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	font-size: .875rem;
+	width: 625px;
+	padding: 40px;
+	background: #666;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, .12), 0 1px 4px rgba(0, 0, 0, .24)
+}
+
+.mediq-head_menu-row-bar-nav-level-2-item,
+.mediq-head_menu-row-bar-nav-level-2-item__a-z {
+	border-bottom: 1px solid #fff
+}
+
+.mediq-head_menu-row-bar-nav-level-2-item:first-child {
+	padding-top: 0
+}
+
+.mediq-head_menu-row-bar-nav-level-2-item a,
+.mediq-head_menu-row-bar-nav-level-2-item__a-z a {
+	color: #fff;
+	display: inline-block;
+	padding-right: 8px;
+	border-right: 1px solid #999;
+	margin-right: 8px;
+	line-height: 1rem
+}
+
+.mediq-head_menu-row-bar-nav-level-2-item a:last-child,
+.mediq-head_menu-row-bar-nav-level-2-item__a-z a:last-child {
+	border: none
+}
+
+.mediq-head_menu-row-bar-nav-level-2-item a.mediq-head_menu-row-bar-nav-level-2-heading,
+.mediq-head_menu-row-bar-nav-level-2-item__a-z a.mediq-head_menu-row-bar-nav-level-2-heading {
+	width: 100px;
+	text-transform: uppercase;
+	color: #f5b672;
+	border: none;
+	margin: 8px 0;
+	padding: 8px 0;
+	line-height: 1
+}
+
+.mediq-head_menu-row-bar-nav-level-2-item a.mediq-head_menu-row-bar-nav-level-2-heading:hover,
+.mediq-head_menu-row-bar-nav-level-2-item__a-z a.mediq-head_menu-row-bar-nav-level-2-heading:hover {
+	color: #f5b672
+}
+
+.mediq-head_menu-row-bar-nav-level-2-item__a-z a:not(.mediq-head_menu-row-bar-nav-level-2-heading) {
+	border: none;
+	padding: 8px 2px;
+	margin: 0
+}
+
+.mediq-head_mobile-screen {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, .4);
+	height: 0;
+	width: 0;
+	opacity: 0;
+	visibility: hidden
+}
+
+.mediq-head_mobile-menu {
+	position: fixed;
+	top: 0;
+	right: -320px;
+	width: 320px;
+	height: 100%;
+	background: #fff;
+	transition: all .7s;
+	overflow-y: auto
+}
+
+.mediq-head_mobile-menu header {
+	padding: 6px 20px;
+	background-color: #dadada
+}
+
+.mediq-head_mobile-menu-btn-close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 6px 10px;
+	border: none;
+	background-color: transparent;
+	height: 36px
+}
+
+.mediq-head_mobile-menu-lvl-1 li {
+	border-bottom: 1px solid #dadada;
+	padding-left: 0
+}
+
+.mediq-head_mobile-menu-lvl-1 a {
+	display: block;
+	padding: 15px 20px
+}
+
+.mediq-head_mobile-menu-lvl-2 li {
+	border-color: #fff;
+	padding-left: 0
+}
+
+.mediq-head_mobile-menu-lvl-2 li:last-child {
+	border: none
+}
+
+.mediq-head_mobile-menu-lvl-2 a {
+	padding-left: 40px;
+	background-color: #eaeaea
+}
+
+.mediq-head_menu-row-node-desktop-mode-search-submit,
+.mediq-head_menu-row-node-mobile-mode-search-submit {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 40px;
+	height: 100%;
+	border: none;
+	background: 0 0
+}
+
+@media (min-width:760px) and (max-width:1029px) {
+	.mediq-head_menu-row {
+		position: relative;
+		height: 84px;
+		transition: height .5s
+	}
+
+	.mediq-head_menu-row-bar {
+		position: absolute;
+		bottom: 0;
+		left: 0
+	}
+}
+
+@media (min-width:760px) {
+	.mediq-head_menu-row-bar {
+		display: table !important
+	}
+
+	.mediq-head_col-tagline {
+		position: relative;
+		height: 48px;
+		margin-bottom: 0
+	}
+
+	.mediq-head_col-tagline-line {
+		position: absolute;
+		bottom: 10px;
+		left: 0;
+		width: 100%
+	}
+}
+
+@media (min-width:1030px) {
+	.mediq-head_col-logo {
+		margin-bottom: 30px
+	}
+
+	.mediq-head_col-logo-img {
+		max-width: 245px;
+		max-height: 61px
+	}
+
+	.mediq-head_col-tagline {
+		height: 60px
+	}
+
+	.mediq-head_col-tagline-line {
+		font-size: 1.125rem
+	}
+
+	.mediq-head_menu-row-bar-nav-level-1-item {
+		width: 1%
+	}
+
+	.mediq-head_menu-row-bar-nav-level-1-item:first-child {
+		border-left: 1px solid #bfbfbf
+	}
+
+	.mediq-head_menu-row-bar-nav-level-1-item:last-child {
+		width: auto;
+		width: initial;
+		border: none;
+		padding: 0
+	}
+
+	.mediq-head_menu-row-bar-nav-level-1-item>a,
+	.mediq-head_menu-row-bar-nav-level-1-item>button {
+		padding: 8px 20px
+	}
+}
+
+@media print {
+	.mediq-head {
+		position: static
+	}
+
+	.mediq-head_col-logo {
+		width: 220px
+	}
+
+	.mediq-head_col-logo-img {
+		height: 50px;
+		width: 195px
+	}
+
+	.mediq-head_col-tagline {
+		width: 320px;
+		margin-top: 20px;
+		float: right
+	}
+
+	.mediq-head_col-tagline h1 {
+		font-size: 1rem
+	}
+}
+
+@media (max-width: 760px){
+    .mediq-head_col-tagline {
+        height: 0;
+        margin: 0;
+		overflow: hidden;
+    }
+}
+
+.mediq-head_mobile-screen__is-opened {
+    height: 100%;
+    width: 100%;
+    visibility: visible;
+    opacity: 1;
+    animation: fadeIn .7s linear 1 forwards;
+}
+
+.mediq-head_mobile-screen__is-opened+.mediq-head_mobile-menu {
+    right: 0;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 19%), 0 6px 10px rgb(0 0 0 / 23%);
+}
+
+body {
+	padding-top: 143px;
+	padding-bottom: 0;
+  }
+  @media (max-width: 1030px){
+	body {
+	  padding-top: 134px;
+	  padding-bottom: 0;
+	}
+  }
+  @media (max-width: 760px){
+	body {
+	  padding-top: 93px;
+	  padding-bottom: 0;
+	}
+  }
+  .prevent-scroll {
+	  overflow: hidden;
+	  height: 100%;
+	  width: 100%;
+	  position: fixed;
+  }
+
+@media (min-width: 1030px) {
+	.mediq-head{
+		padding-bottom: 10px;
+	}
+}
