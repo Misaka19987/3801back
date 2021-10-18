@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4edb060d-682c-45d8-a24f-e2914c821f25" name="Changes" comment="V0.1&#10;&#10;New front-end files&#10;&#10;We are now working on deploy all of them onto django">
-      <change afterPath="$PROJECT_DIR$/mediQ/urls.py" afterDir="false" />
+    <list default="true" id="4edb060d-682c-45d8-a24f-e2914c821f25" name="Changes" comment="V0.2&#10;&#10;Fixed static files layout&#10;Need help with hyperlinks...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DECO3801/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DECO3801/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mediQ/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mediQ/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediQ/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mediQ/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/medical-insurance.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/medical-insurance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/medical-service.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/medical-service.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/online-booking.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/online-booking.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/reset-paasword.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/reset-password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/sign-up.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sign-up.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/symptom-checker.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/symptom-checker.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +117,7 @@
       <workItem from="1632993677959" duration="51000" />
       <workItem from="1633587455999" duration="846000" />
       <workItem from="1634195191962" duration="914000" />
-      <workItem from="1634566471397" duration="8107000" />
+      <workItem from="1634566471397" duration="11675000" />
     </task>
     <task id="LOCAL-00001" summary="V0.0 -- Initial template">
       <created>1632372803614</created>
@@ -138,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633588246116</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="V0.2&#10;&#10;Fixed static files layout&#10;Need help with hyperlinks...">
+      <created>1634581871612</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1634581871612</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,7 +167,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="V0.0 -- Initial template" />
-    <option name="LAST_COMMIT_MESSAGE" value="V0.0 -- Initial template" />
+    <MESSAGE value="V0.2&#10;&#10;Fixed static files layout&#10;Need help with hyperlinks..." />
+    <option name="LAST_COMMIT_MESSAGE" value="V0.2&#10;&#10;Fixed static files layout&#10;Need help with hyperlinks..." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DECO3801$manage.coverage" NAME="manage Coverage Results" MODIFIED="1633587605409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

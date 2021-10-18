@@ -49,7 +49,7 @@
             <div class="mediq-head_content">
                 <div class="mediq-head_content-common">
                     <div class="mediq-head_col-logo">
-                        <a href="./index.html" class="mediq-head_col-logo-link">
+                        <a href="{% url 'MediQ:index' %}" class="mediq-head_col-logo-link">
                             <img class="mediq-head_col-logo-img" src="{% static './img/logo.png' %}" alt="MediQ-Medical Services logo">
                         </a>
                     </div>
@@ -62,7 +62,7 @@
                         <h1 class="mediq-head_col-tagline-line">
                             <ul id="login">
                                 <li>
-                                    <a href="sign-up.html">Sign up</a>
+                                    <a href="{% url 'MediQ:signup' %}">Sign up</a>
                                 </li>
                                 <li>
                                     <a>|</a>
@@ -94,19 +94,19 @@
                         <!-- Tablet and Desktop menu -->
                       <ul class="mediq-head_menu-row-bar-nav">
                         <li class="mediq-head_menu-row-bar-nav-level-1-item">
-                            <a href="index.html">Home</a>
+                            <a href="{% url 'MediQ:index' %}">Home</a>
                         </li>
                         <li class="mediq-head_menu-row-bar-nav-level-1-item">
-                            <a href="symptom-checker.html">Symptom Checker</a>
+                            <a href="{% url 'MediQ:checker' %}">Symptom Checker</a>
                         </li>
                         <li class="mediq-head_menu-row-bar-nav-level-1-item">
-                            <a href="medical-service.html">Medical Service</a>
+                            <a href="{% url 'MediQ:service' %}">Medical Service</a>
                         </li>
                         <li class="mediq-head_menu-row-bar-nav-level-1-item">
-                            <a href="online-booking.html">Online Booking</a>
+                            <a href="{% url 'MediQ:booking' %}">Online Booking</a>
                         </li>
                         <li class="mediq-head_menu-row-bar-nav-level-1-item">
-                            <a href="medical-insurance.html">Medical Insurance</a>
+                            <a href="{% url 'MediQ:insurance' %}">Medical Insurance</a>
                         </li>
                         <li class="mediq-head_menu-row-bar-nav-level-1-item desktop-only">
                           <!-- Primary search block -->
@@ -159,7 +159,7 @@
                     <input type="" placeholder="Your password" style="margin: 0 auto;">
                     <ul id="popup-list">
                         <li>
-                            <a href="reset-paasword.html">forget password</a>
+                            <a href="{% url 'MediQ:reset' %}">forget password</a>
                         </li>
                         <li>
                             <a>|</a>
