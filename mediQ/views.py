@@ -21,3 +21,11 @@ def booking(request):
 
 def insur(request):
     return render(request, "medical-insurance.html")
+
+
+def signup(request):
+    return render(request, "sign-up.html")
+
+
+def reset(request):
+    return render(request, "reset-password.html")
