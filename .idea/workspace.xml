@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4edb060d-682c-45d8-a24f-e2914c821f25" name="Changes" comment="V0.0 -- Initial template">
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+    <list default="true" id="4edb060d-682c-45d8-a24f-e2914c821f25" name="Changes" comment="V0.1&#10;&#10;New front-end files&#10;&#10;We are now working on deploy all of them onto django">
+      <change afterPath="$PROJECT_DIR$/mediQ/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DECO3801/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DECO3801/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DECO3801/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DECO3801/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mediQ/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mediQ/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/medical-insurance.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/medical-insurance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/online-booking.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/online-booking.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +39,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/DataLinkage_py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -111,7 +113,9 @@
       <updated>1632372681602</updated>
       <workItem from="1632372712444" duration="9032000" />
       <workItem from="1632993677959" duration="51000" />
-      <workItem from="1633587455999" duration="640000" />
+      <workItem from="1633587455999" duration="846000" />
+      <workItem from="1634195191962" duration="914000" />
+      <workItem from="1634566471397" duration="8107000" />
     </task>
     <task id="LOCAL-00001" summary="V0.0 -- Initial template">
       <created>1632372803614</created>
@@ -127,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632372843005</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="V0.0 -- Initial template">
+      <created>1633588246116</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1633588246116</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -2,16 +2,17 @@
 <html lang="en">
 
 	<head>
+        {% load static %}
 		<meta charset="UTF-8">
 		<title>Medical Services</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="shortcut icon" href="./awtwh-s2fbi-001.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="{% static './awtwh-s2fbi-001.ico' %}" type="image/x-icon">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-		<link rel="stylesheet" href="css\style.css">
-		<link rel="stylesheet" href="css\home_content.css">
-		<link rel="stylesheet" href="./css/header.css">
+		<link rel="stylesheet" href="{% static 'css\style.css' %}">
+		<link rel="stylesheet" href="{% static 'css\home_content.css' %}">
+		<link rel="stylesheet" href="{% static './css/header.css' %}">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-		<link rel="stylesheet" href="./css/footer.css">
+		<link rel="stylesheet" href="{% static './css/footer.css' %}">
 		<meta name="viewport" content="initial-scale=1.0, user-scalable=no"> 
 		<style>
 			#container {
@@ -30,7 +31,7 @@
 				<div class="mediq-head_content-common">
 					<div class="mediq-head_col-logo">
 						<a href="./index.html" class="mediq-head_col-logo-link">
-							<img class="mediq-head_col-logo-img" src="./img/logo.png" alt="MediQ-Medical Services logo">
+							<img class="mediq-head_col-logo-img" src="{% static './img/logo.png' %}" alt="MediQ-Medical Services logo">
 						</a>
 					</div>
 					<div class="mediq-head_col-mob-menu mobile-only">
@@ -258,7 +259,7 @@
 						<div class="grid-row">
 							<div class="mediq-foot_hon-logo">
 								<a href="" rel="noopener" target="_blank">
-									<img class="mediq-foot_hon-logo-img" src="./img/HONConduct817993_s.gif" alt="H.O.N code - Health on the Net Foundation logo">
+									<img class="mediq-foot_hon-logo-img" src="{% static './img/HONConduct817993_s.gif' %}" alt="H.O.N code - Health on the Net Foundation logo">
 								</a>
 							</div>
 							<div class="mediq-foot_hon-description">
