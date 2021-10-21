@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4edb060d-682c-45d8-a24f-e2914c821f25" name="Changes" comment="V0.3&#10;&#10;Hyperlink problem has been fixed;&#10;sign-up page is now added">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mediQ/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mediQ/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/medical-insurance.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/medical-insurance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/medical-service.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/medical-service.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/online-booking.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/online-booking.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/reset-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/reset-password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/sign-up.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sign-up.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/symptom-checker.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/symptom-checker.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +40,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -41,7 +49,7 @@
       <recent name="C:\Users\s4518420\Documents\GitHub\DECO3801\static" />
     </key>
   </component>
-  <component name="RunManager" selected="Django Server.DECO3801">
+  <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DECO3801/templates/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -91,12 +99,6 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.manage" />
-        <item itemvalue="JavaScript Debug.index.html" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -171,8 +173,5 @@
     <MESSAGE value="V0.2&#10;&#10;Fixed static files layout&#10;Need help with hyperlinks..." />
     <MESSAGE value="V0.3&#10;&#10;Hyperlink problem has been fixed;&#10;sign-up page is now added" />
     <option name="LAST_COMMIT_MESSAGE" value="V0.3&#10;&#10;Hyperlink problem has been fixed;&#10;sign-up page is now added" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DECO3801$manage.coverage" NAME="manage Coverage Results" MODIFIED="1633587605409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
