@@ -6,12 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="{% static './awtwh-s2fbi-001.ico' %}" type="image/x-icon">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-        <link rel="stylesheet" href="{% static 'css\style.css' %}">
-        <link rel="stylesheet" href="{% static 'css\home_content.css' %}">
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+        <link rel="stylesheet" href="{% static 'css/home_content.css' %}">
         <title>MediQ-Medical Services</title>
-        <link rel="stylesheet" href="{% static './css/header.css' %}">
+        <link rel="stylesheet" href="{% static '/css/header.css' %}">
         <link rel="stylesheet" href="{% static 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' %}" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="{% static './css/footer.css' %}">
+        <link rel="stylesheet" href="{% static '/css/footer.css' %}">
         <style>
             .nav-item {
                 width: 33.3%;
@@ -131,19 +131,19 @@
                 <header>Menu <button class="mediq-head_mobile-menu-btn-close">Close <i class="fa fa-navicon"></i></button></header>
                 <ul class="mediq-head_mobile-menu-lvl-1">
                   <li>
-                      <a href="index.html">Home</a>
+                      <a href="{% url 'MediQ:index' %}">Home</a>
                   </li>
                   <li>
-                      <a href="symptom-checker.html">Symptom Checker</a>
+                      <a href="{% url 'MediQ:checker' %}">Symptom Checker</a>
                   </li>
                   <li>
-                      <a href="medical-service.html">Medical Service</a>
+                      <a href="{% url 'MediQ:service' %}">Medical Service</a>
                   </li>
                   <li>
-                      <a href="online-booking.html">Online Booking</a>
+                      <a href="{% url 'MediQ:booking' %}">Online Booking</a>
                   </li>
                   <li>
-                      <a href="medical-insurance.html">Medical Insurance</a>
+                      <a href="{% url 'MediQ:insurance' %}">Medical Insurance</a>
                   </li>
                 </ul>
             </nav>
@@ -151,7 +151,7 @@
         <div class="login_popup">
             <div class="popup_content">
                 <a class="close">+</a>
-                <img src="{% static 'img\background-index.jpg' %}" alt="">
+                <img src="{% static 'img/background-index.jpg' %}" alt="">
                 <form action="">
                     <label>E-mail</label>
                     <input type="" placeholder="Your e-mail address" style="margin: 0 auto;">
@@ -165,12 +165,12 @@
                             <a>|</a>
                         </li>
                         <li>
-                            <a href="sign-up.html">sign up</a>
+                            <a href="{% url 'MediQ:signup' %}">sign up</a>
                         </li>
                     </ul>
                     <br>
                     <div id="login-button">
-                        <a href="index.html" class="button">Login</a>
+                        <a href="{% url 'MediQ:index' %}" class="button">Login</a>
                     </div>
                 </form>
             </div>
@@ -203,7 +203,7 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-                        <div class="img" style="background-image: url(./img/background-homepage.png);"></div>
+                        <div class="img" style="background-image: url({% static 'img/background-homepage.png' %});"></div>
                         <div class="an"></div>
                         <div class="container">
                           <div class="carousel-caption text-start">
@@ -216,7 +216,7 @@
 
                     <div class="carousel-item">
                         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-                        <div class="img" style="background-image: url(./img/background-index.jpg);"></div>
+                        <div class="img" style="background-image: url({% static 'img/background-index.jpg' %});"></div>
                         <div class="an"></div>
                 
                         <div class="container">
@@ -230,7 +230,7 @@
 
                     <div class="carousel-item">
                         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-                        <div class="img" style="background-image: url(./img/underconstruction.png);"></div>
+                        <div class="img" style="background-image: url({% static '/img/underconstruction.png' %});"></div>
                         <div class="an"></div>
                 
                         <div class="container">

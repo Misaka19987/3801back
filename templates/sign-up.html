@@ -8,11 +8,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="shortcut icon" href="{% static './awtwh-s2fbi-001.ico' %}" type="image/x-icon">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-		<link rel="stylesheet" href="{% static 'css\style.css' %}">
-		<link rel="stylesheet" href="{% static 'css\home_content.css' %}">
-		<link rel="stylesheet" href="{% static './css/header.css' %}">
+		<link rel="stylesheet" href="{% static 'css/style.css' %}">
+		<link rel="stylesheet" href="{% static 'css/home_content.css' %}">
+		<link rel="stylesheet" href="{% static '/css/header.css' %}">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-		<link rel="stylesheet" href="{% static './css/footer.css' %}">
+		<link rel="stylesheet" href="{% static '/css/footer.css' %}">
 		<style>
 				
 			.container1 {
@@ -45,7 +45,7 @@
 			<div class="mediq-head_content">
 				<div class="mediq-head_content-common">
 					<div class="mediq-head_col-logo">
-						<a href="./index.html" class="mediq-head_col-logo-link">
+						<a href="{% url 'MediQ:index' %}" class="mediq-head_col-logo-link">
 							<img class="mediq-head_col-logo-img" src="{% static './img/logo.png' %}" alt="MediQ-Medical Services logo">
 						</a>
 					</div>
@@ -90,7 +90,7 @@
 						<!-- Tablet and Desktop menu -->
 						<ul class="mediq-head_menu-row-bar-nav">
 							<li class="mediq-head_menu-row-bar-nav-level-1-item">
-								<a href="index.html">Home</a>
+								<a href="{% url 'MediQ:index' %}">Home</a>
 							</li>
 							<li class="mediq-head_menu-row-bar-nav-level-1-item">
 								<a href="symptom-checker.html">Symptom Checker</a>
@@ -129,7 +129,7 @@
 				</header>
 				<ul class="mediq-head_mobile-menu-lvl-1">
 					<li>
-						<a href="index.html">Home</a>
+						<a href="{% url 'MediQ:index' %}">Home</a>
 					</li>
 					<li>
 						<a href="symptom-checker.html">Symptom Checker</a>
@@ -149,7 +149,7 @@
 		<div class="login_popup">
 			<div class="popup_content">
 				<a class="close">+</a>
-				<img src="img\background-index.jpg" alt="">
+				<img src="{% static 'img/background-index.jpg' %}" alt="">
 				<form action="">
 					<label>E-mail</label>
 					<input type="" placeholder="Your e-mail address" style="margin: 0 auto;">
@@ -168,7 +168,7 @@
 					</ul>
 					<br>
 					<div id="login-button">
-						<a href="index.html" class="button">Login</a>
+						<a href="{% url 'MediQ:index' %}" class="button">Login</a>
 					</div>
 				</form>
 			</div>
