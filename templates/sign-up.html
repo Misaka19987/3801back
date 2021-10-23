@@ -58,7 +58,7 @@
 						<h1 class="mediq-head_col-tagline-line">
 							<ul id="login">
 								<li>
-									<a href="sign-up.html">Sign up</a>
+									<a href="{% url 'MediQ:signup' %}">Sign up</a>
 								</li>
 								<li>
 									<a>|</a>
@@ -93,16 +93,16 @@
 								<a href="{% url 'MediQ:index' %}">Home</a>
 							</li>
 							<li class="mediq-head_menu-row-bar-nav-level-1-item">
-								<a href="symptom-checker.html">Symptom Checker</a>
+								<a href="{% url 'MediQ:checker' %}">Symptom Checker</a>
 							</li>
 							<li class="mediq-head_menu-row-bar-nav-level-1-item">
-								<a href="medical-service.html">Medical Service</a>
+								<a href="{% url 'MediQ:service' %}">Medical Service</a>
 							</li>
 							<li class="mediq-head_menu-row-bar-nav-level-1-item">
-								<a href="online-booking.html">Online Booking</a>
+								<a href="{% url 'MediQ:booking' %}">Online Booking</a>
 							</li>
 							<li class="mediq-head_menu-row-bar-nav-level-1-item">
-								<a href="medical-insurance.html">Medical Insurance</a>
+								<a href="{% url 'MediQ:insurance' %}">Medical Insurance</a>
 							</li>
 							<li class="mediq-head_menu-row-bar-nav-level-1-item desktop-only">
 								<!-- Primary search block -->
@@ -132,16 +132,16 @@
 						<a href="{% url 'MediQ:index' %}">Home</a>
 					</li>
 					<li>
-						<a href="symptom-checker.html">Symptom Checker</a>
+						<a href="{% url 'MediQ:checker' %}">Symptom Checker</a>
 					</li>
 					<li>
-						<a href="medical-service.html">Medical Service</a>
+						<a href="{% url 'MediQ:service' %}">Medical Service</a>
 					</li>
 					<li>
-						<a href="online-booking.html">Online Booking</a>
+						<a href="{% url 'MediQ:booking' %}">Online Booking</a>
 					</li>
 					<li>
-						<a href="medical-insurance.html">Medical Insurance</a>
+						<a href="{% url 'MediQ:insurance' %}">Medical Insurance</a>
 					</li>
 				</ul>
 			</nav>
@@ -157,13 +157,13 @@
 					<input type="" placeholder="Your password" style="margin: 0 auto;">
 					<ul id="popup-list">
 						<li>
-							<a href="reset-password.html">forget password</a>
+							<a href="{% url 'MediQ:reset' %}">forget password</a>
 						</li>
 						<li>
 							<a>|</a>
 						</li>
 						<li>
-							<a href="sign-up.html">sign up</a>
+							<a href="{% url 'MediQ:signup' %}">sign up</a>
 						</li>
 					</ul>
 					<br>
