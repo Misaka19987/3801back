@@ -152,19 +152,19 @@
 				</header>
 				<ul class="mediq-head_mobile-menu-lvl-1">
 					<li>
-						<a href="index.html">Home</a>
+						<a href="{% url 'MediQ:index' %}">Home</a>
 					</li>
 					<li>
-						<a href="symptom-checker.html">Symptom Checker</a>
+						<a href="{% url 'MediQ:checker' %}">Symptom Checker</a>
 					</li>
 					<li>
-						<a href="medical-service.html">Medical Service</a>
+						<a href="{% url 'MediQ:service' %}">Medical Service</a>
 					</li>
 					<li>
-						<a href="online-booking.html">Online Booking</a>
+						<a href="{% url 'MediQ:booking' %}">Online Booking</a>
 					</li>
 					<li>
-						<a href="medical-insurance.html">Medical Insurance</a>
+						<a href="{% url 'MediQ:insurance' %}">Medical Insurance</a>
 					</li>
 				</ul>
 			</nav>
@@ -186,12 +186,12 @@
 							<a>|</a>
 						</li>
 						<li>
-							<a href="sign-up.html">sign up</a>
+							<a href="{% url 'MediQ:signup' %}">sign up</a>
 						</li>
 					</ul>
 					<br>
 					<div id="login-button">
-						<a href="index.html" class="button">Login</a>
+						<a href="{% url 'MediQ:index' %}" class="button">Login</a>
 					</div>
 				</form>
 			</div>
