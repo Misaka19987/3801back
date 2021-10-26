@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4edb060d-682c-45d8-a24f-e2914c821f25" name="Changes" comment="V0.5&#10;&#10;Major bug fixed:&#10;1. pop-up sign-in existence issue&#10;2. js importing issue&#10;3. loading static and url issue">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DECO3801.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DECO3801.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/medical-insurance.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/medical-insurance.html" afterDir="false" />
+    <list default="true" id="4edb060d-682c-45d8-a24f-e2914c821f25" name="Changes" comment="V0.6">
+      <change beforePath="$PROJECT_DIR$/DECO3801/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DECO3801/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +121,7 @@
       <workItem from="1634566471397" duration="12041000" />
       <workItem from="1634585835987" duration="592000" />
       <workItem from="1635013117792" duration="3927000" />
-      <workItem from="1635264727002" duration="1510000" />
+      <workItem from="1635264727002" duration="1821000" />
     </task>
     <task id="LOCAL-00001" summary="V0.0 -- Initial template">
       <created>1632372803614</created>
@@ -203,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634990023558</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="V0.6">
+      <created>1635267058200</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1635267058200</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +231,8 @@
     <MESSAGE value="V0.3&#10;&#10;Hyperlink problem has been fixed;&#10;sign-up page is now added" />
     <MESSAGE value="V0.4&#10;&#10;Some minor debugs... Added background pics" />
     <MESSAGE value="V0.5&#10;&#10;Major bug fixed:&#10;1. pop-up sign-in existence issue&#10;2. js importing issue&#10;3. loading static and url issue" />
-    <option name="LAST_COMMIT_MESSAGE" value="V0.5&#10;&#10;Major bug fixed:&#10;1. pop-up sign-in existence issue&#10;2. js importing issue&#10;3. loading static and url issue" />
+    <MESSAGE value="V0.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="V0.6" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DECO3801$manage.coverage" NAME="manage Coverage Results" MODIFIED="1633587605409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
