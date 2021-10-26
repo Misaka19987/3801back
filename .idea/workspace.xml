@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4edb060d-682c-45d8-a24f-e2914c821f25" name="Changes" comment="V0.3&#10;&#10;Hyperlink problem has been fixed;&#10;sign-up page is now added">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+    <list default="true" id="4edb060d-682c-45d8-a24f-e2914c821f25" name="Changes" comment="V0.5&#10;&#10;Major bug fixed:&#10;1. pop-up sign-in existence issue&#10;2. js importing issue&#10;3. loading static and url issue">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DECO3801.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DECO3801.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/medical-insurance.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/medical-insurance.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/medical-service.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/medical-service.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/online-booking.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/online-booking.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/reset-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/reset-password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/sign-up.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sign-up.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/symptom-checker.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/symptom-checker.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +24,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1yWgIw5vEByUtjeqbmFunrW65qS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -49,7 +52,7 @@
       <recent name="C:\Users\s4518420\Documents\GitHub\DECO3801\static" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django Server.DECO3801">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DECO3801/templates/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -99,6 +102,12 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.manage" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -114,6 +123,8 @@
       <workItem from="1634195191962" duration="914000" />
       <workItem from="1634566471397" duration="12041000" />
       <workItem from="1634585835987" duration="592000" />
+      <workItem from="1635013117792" duration="3927000" />
+      <workItem from="1635264727002" duration="1510000" />
     </task>
     <task id="LOCAL-00001" summary="V0.0 -- Initial template">
       <created>1632372803614</created>
@@ -150,7 +161,49 @@
       <option name="project" value="LOCAL" />
       <updated>1634585466288</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="V0.4&#10;&#10;Some minor debugs... Added background pics">
+      <created>1634924944885</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1634924944885</updated>
+    </task>
+    <task id="LOCAL-00007" summary="V0.4&#10;&#10;Some minor debugs... Added background pics">
+      <created>1634926573275</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1634926573275</updated>
+    </task>
+    <task id="LOCAL-00008" summary="V0.4&#10;&#10;Some minor debugs... Added background pics">
+      <created>1634926892229</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1634926892229</updated>
+    </task>
+    <task id="LOCAL-00009" summary="V0.5&#10;&#10;Major bug fixed:&#10;1. pop-up sign-in existence issue&#10;2. js importing issue&#10;3. loading static and url issue">
+      <created>1634931827958</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1634931827958</updated>
+    </task>
+    <task id="LOCAL-00010" summary="V0.5&#10;&#10;Major bug fixed:&#10;1. pop-up sign-in existence issue&#10;2. js importing issue&#10;3. loading static and url issue">
+      <created>1634986598455</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1634986598455</updated>
+    </task>
+    <task id="LOCAL-00011" summary="V0.5&#10;&#10;Major bug fixed:&#10;1. pop-up sign-in existence issue&#10;2. js importing issue&#10;3. loading static and url issue">
+      <created>1634990023558</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1634990023558</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +225,11 @@
     <MESSAGE value="V0.0 -- Initial template" />
     <MESSAGE value="V0.2&#10;&#10;Fixed static files layout&#10;Need help with hyperlinks..." />
     <MESSAGE value="V0.3&#10;&#10;Hyperlink problem has been fixed;&#10;sign-up page is now added" />
-    <option name="LAST_COMMIT_MESSAGE" value="V0.3&#10;&#10;Hyperlink problem has been fixed;&#10;sign-up page is now added" />
+    <MESSAGE value="V0.4&#10;&#10;Some minor debugs... Added background pics" />
+    <MESSAGE value="V0.5&#10;&#10;Major bug fixed:&#10;1. pop-up sign-in existence issue&#10;2. js importing issue&#10;3. loading static and url issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="V0.5&#10;&#10;Major bug fixed:&#10;1. pop-up sign-in existence issue&#10;2. js importing issue&#10;3. loading static and url issue" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DECO3801$manage.coverage" NAME="manage Coverage Results" MODIFIED="1633587605409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
